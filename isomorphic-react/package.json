@@ -1,0 +1,22 @@
+{
+  "name": "isomorphic-react",
+  "version": "1.0.0",
+  "description": "\"A demo for react js\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "browserify": "browserify -d initalize.js > bundle.js"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "Sana Nasar",
+  "license": "ISC",
+  "devDependencies": {
+    "browserify": "^8.1.3",
+    "reactify": "^1.0.0"
+  },
+  "dependencies": {
+    "react": "^0.12.2"
+  }
+}
