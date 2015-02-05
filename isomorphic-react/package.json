@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "browserify": "browserify -d initalize.js > bundle.js"
+    "browserify": "browserify -d initialize.js -o public/bundle.js",
+    "watchify": "watchify -d initialize.js -o public/bundle.js -v"
   },
   "keywords": [
     "react"
@@ -14,9 +15,19 @@
   "license": "ISC",
   "devDependencies": {
     "browserify": "^8.1.3",
-    "reactify": "^1.0.0"
+    "reactify": "^1.0.0",
+    "watchify": "^2.3.0"
   },
   "dependencies": {
+    "ejs": "^2.2.4",
+    "ejs-locals": "^1.0.2",
+    "express": "^4.11.2",
+    "morgan": "^1.5.1",
     "react": "^0.12.2"
+  },
+  "browserify": {
+    "transform": [
+      "reactify"
+    ]
   }
 }
