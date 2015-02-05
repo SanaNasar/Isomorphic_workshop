@@ -1,0 +1,22 @@
+{
+  "name": "set-cookie",
+  "version": "0.0.1",
+  "description": "Set cookies anywhere",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cookie"
+  ],
+  "author": "Sana Nasar",
+  "license": "ISC",
+  "private": true,
+  "dependencies": {
+    "cookie": "^0.1.2",
+    "express": "^4.11.2"
+  },
+  "browser": {
+    "./lib/setter/index.js": "./lib/setter/client.js"
+  }
+}
