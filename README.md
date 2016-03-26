@@ -1,8 +1,9 @@
 # IsomorphicJS_workshop
-===================
+
 ## Overview
 
-This is a small sample app built to demonstrate isomorphic JavaScript concepts. This was a workshop taught by *Spike Brehm*
+This is a small sample app built to demonstrate Isomorphic JavaScript concepts.
+This was a workshop taught by *Spike Brehm*
 
 ## Under the hood (What's going on??)
 
